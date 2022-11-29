@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Menu */
+.secao-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 10rem;
+    height: 5rem;
+}
+
+.menu {
+    list-style: none;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    font-weight: bold
+}
+
+.menu li a:hover {
+    background: #28852F;
+    color: #fff;
+
+}
+
+.menu li ul {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
+}
+
+.menu li ul li {
+    display: block;
+    width: 15rem;
+    text-align: center;
+}
+
+/* Menu */
+
+/* Textos */
+h1,
+h2,
+p {
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+p {
+    font-size: 1 rem;
+    font-weight: bold;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+/* Textos */
+
+/* Seções */
+.main {
+    display: grid;
+    margin: 2rem 0 2rem 0;
+}
+
+.secao-indicadores,
+.secao-planos,
+.secao-contato,
+.cartao-indicador,
+.cartao-pacotes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.cartao-pacotes {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow:
+        2.2px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        5.4px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        10.1px 12.5px 10px rgba(0, 0, 0, 0.035),
+        18.1px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        33.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        81px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.cartao-pacotes2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+/* Secções */
+
+/* Imagens */
+.imagen-demonstrativa {
+    width: 65%;
+    border-radius: 1rem;
+    box-shadow:
+        2.2px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        5.4px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        10.1px 12.5px 10px rgba(0, 0, 0, 0.035),
+        18.1px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        33.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        81px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.logo-reduzido {
+    width: 25%;
+}
+
+.logo-contato {
+    width: 20%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+/* Imagens */
+
+/* Botões */
+.botao {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: #28852F;
+    border-radius: 0.5rem;
+    box-shadow:
+        2.2px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        5.4px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        10.1px 12.5px 10px rgba(0, 0, 0, 0.035),
+        18.1px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        33.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        81px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.botao a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.botao:hover {
+    background-color: #FFFFFF;
+}
+
+.botao a:hover {
+    color: #28852F;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Botões */
+
+/* Formulário */
+form {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 1rem 1rem;
+    border-style: groove;
+    border-radius: 0.5rem;
+    box-shadow:
+        2.2px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        5.4px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        10.1px 12.5px 10px rgba(0, 0, 0, 0.035),
+        18.1px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        33.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        81px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+input,
+textarea {
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+}
+
+form .botao {
+    color: #000000;
+}
+
+/* Formulário */
+
